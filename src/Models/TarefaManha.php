@@ -8,7 +8,7 @@ class TarefaManha extends Tarefa
 {
     public function executar(): void
     {
-        echo "☀️ Executando tarefa da manhã: "
+        echo "Executando tarefa da manhã: "
             . $this->getNome()
             . PHP_EOL;
     }
